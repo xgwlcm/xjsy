@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" href="favicon.ico" />
+    <title>徕卡相机水印生成器 — 宁娇网络</title>
+    <script
+      defer="defer"
+      src="chunk-vendors.3c0bade8.js"
+      type="5ca98c1972297447dee4fbae-text/javascript"
+    ></script>
+    <link href="media_time2.css" rel="stylesheet" type="text/css">
+    <script
+      defer="defer"
+      src="app.da17ef23.js"
+      type="5ca98c1972297447dee4fbae-text/javascript"
+    ></script>
+    <link href="chunk-vendors.36eb7e2b.css" rel="stylesheet" />
+    <link href="app.ca586bef.css" rel="stylesheet" />
+    <script type="text/javascript">
+    var system = {
+        win: false,
+        mac: false,
+        xll: false
+    };
+    var p = navigator.platform;
+    system.win = p.indexOf("Win") == 0;
+    system.mac = p.indexOf("Mac") == 0;
+    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+    if (system.win || system.mac || system.xll) {
+  window.location.href = "https://xgwlcm.github.io/xjsy";
+  } else {}
+</script>
+
+  </head>
+  <body>
+
+  <div class="l-section">
+
+
+  	<div class="c-header"><a class="c-brandlogo w-inline-block w--current"><img src="Leica.png" width="145"></a>
+
+      <p class="c-bann">徕卡相机水印生成器</p>
+    </div>
+    <div id="app"></div>
+    <script
+      src="rocket-loader.min.js"
+      data-cf-settings="5ca98c1972297447dee4fbae-|49"
+      defer=""
+    ></script>
+
+
+
+<script type="text/javascript">
+    $(function() {
+        $('.tabs li').hover(function() {
+            var i = $(this).index();
+            $(this).addClass('on').siblings().removeClass('on');
+            $('.tab-content').removeClass('show').eq(i).addClass('show');
+        })
+    })
+</script>
+
+    <script>
+//手机打开浮层
+$("#dd").click(function(){
+  //var s = $(".dropdown").css('overflow');
+  /*if ( s=='hidden' ){
+    $(".dropdown").css('overflow','visible');
+  }else{
+    $(".dropdown").css('overflow','hidden');
+  }*/
+  var s = $(this).hasClass('active');
+  if ( s ){
+    $(this).removeClass('active');
+  }else{
+    $(this).addClass('active');
+  }
+  var b = $(".search_top").css('display');
+
+  if ( b=='block'  ){$(".search_top").css('display','none');
+}
+})
+$(".so_icon").click(function(){
+  var s = $(".search_top").css('display');
+  if ( s=='none' ){
+    $(".search_top").css('display','block');
+  }else{
+    $(".search_top").css('display','none');
+  }
+  var b = $("#dd").hasClass('active');
+  if ( b  ){$("#dd").removeClass('active');
+  }
+})
+</script>
+  </body>
+</html>
